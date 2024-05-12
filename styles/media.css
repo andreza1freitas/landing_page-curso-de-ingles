@@ -1,0 +1,59 @@
+@media screen and (max-width: 760px) {
+
+    header {
+        flex-direction: column;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    h3 {
+        font-size: 30px;
+    }
+
+    form {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    input {
+        width: 250px;
+        align-self: center;
+    }
+
+    #enviar {
+        align-self: center;
+
+    }
+
+    img {
+        display: none;
+    }
+
+    .imagemsobre {
+        display: none;
+    }
+
+    .nomecurso {
+        padding-left: 5%;
+        margin-bottom: 13px;
+    }
+
+    .nomeprof {
+        padding-left: 5%;
+        margin-top: 3px;
+    }
+
+    ul {
+        text-align: center;
+    }
+}
