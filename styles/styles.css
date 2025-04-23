@@ -2,164 +2,174 @@ body {
   font-family: 'Times New Roman', Times, serif;
   margin: 0;
   padding: 0;
+  background-color: #fdfdfd;
 }
 
 header {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(165, 20, 85);
-}
-
-header li {
-  font-size: 20px;
-  display: inline-block;
-  margin: 20px;
+  background-color: #a51455;
+  padding: 10px 20px;
 }
 
 header img {
-  width: 10%;
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  object-fit: cover;
   border-radius: 50%;
-  margin-left: 5px;
+}
+
+header ul {
+  display: flex;
+  gap: 10px;
+}
+
+header li {
+  list-style: none;
 }
 
 header ul li a {
   text-decoration: none;
-  color: black;
+  color: #fff;
   font-weight: bold;
-}
-
-.dflexcenter {
-  display: flex;
-  justify-content: center;
-}
-
-.imagemsobre {
-  flex: 1;
-  display: flex;
-  justify-content: flex-end;
-  max-width: 60%;
-}
-
-#titulo {
-  flex-direction: column;
-  line-height: 10px;
-}
-
-.btnmenu {
-  border: 2px solid rgb(0, 36, 72);
-  padding: 8px;
+  border: 2px solid #002444;
+  padding: 8px 12px;
   border-radius: 15px;
+  transition: 0.3s;
 }
 
-.btnmenu:hover {
-  background-color: rgb(0, 36, 72);
-  color: white;
+header ul li a:hover {
+  background-color: #002444;
+  color: #fff;
+}
+
+.nometitulo {
+  text-align: center;
+  padding: 60px 20px 20px;
+}
+
+.nomecurso,
+.nomeprof {
+  color: #002444;
+  margin: 5px 0;
+}
+
+h2 {
+  font-size: 32px;
+  text-align: center;
+  color: #a51455;
+  margin-bottom: 20px;
+}
+
+main {
+  padding: 40px 20px;
+}
+
+section {
+  margin-bottom: 60px;
 }
 
 .corfundo {
   background-color: #EEEEEE;
+  padding: 40px 20px;
+  border-radius: 8px;
 }
 
-.nometitulo {
+.dflexcenter {
   display: flex;
   flex-direction: column;
-  padding-left: 2%;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.imagemsobre img {
+  max-width: 300px;
+  border-radius: 10px;
+  margin-left: 40px;
+}
+
+.imagemsobre {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.nomecurso {
-  margin-bottom: 30px;
+p,
+li {
+  font-size: 18px;
+  color: #222;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 10px auto;
 }
 
-.nomeprof {
-  margin-top: 7px;
-}
-
-h2 {
-  font-size: 40px;
-  color: rgb(0, 36, 72);
-  line-height: 10px;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-h3 {
-  text-align: center;
-  font-size: 45px;
-  color: rgb(165, 20, 85);
-}
-
-h4 {
-  margin-bottom: 10px;
-  color: rgb(0, 36, 72);
-}
-
-p {
-  color: black;
-  font-family: 'Times New Roman', Times, serif;
-  line-height: 20px;
-  max-width: 600px;
-  margin-top: 20px;
-  text-align: center;
+ul {
+  padding-left: 20px;
 }
 
 form {
   display: flex;
   flex-direction: column;
-}
-
-#btnenviar {
-  height: 50px;
-  width: 80%;
-  border: 2px solid rgb(0, 36, 72);
-  background-color: white;
-  color: rgb(65, 62, 62);
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-  font-weight: bold;
-  align-self: center;
-  margin-bottom: 10px;
-}
-
-#btnenviar:hover {
-  cursor: pointer;
-  background: rgb(0, 36, 72);
-  color: white;
+  align-items: center;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
 input {
-  width: 400px;
-  margin-top: 20px;
-  height: 20px;
+  width: 100%;
   padding: 15px;
+  font-size: 18px;
+  border: 1px solid #ccc;
   border-radius: 20px;
-  border: 1px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
-  align-self: center;
 }
 
-.social-links {
-  margin-bottom: 50px;
+#btnenviar {
+  width: 50%;
+  background-color: #fff;
+  border: 1px solid #002444;
+  color: #002444;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-.social-links li {
-  display: inline;
+#btnenviar:hover {
+  background-color: #002444;
+  color: #fff;
 }
 
-#footer {
+footer.footer {
   text-align: center;
-  font-family: 'Times New Roman', Times, serif;
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  padding: 30px 20px;
+  font-size: 16px;
+  background-color: #a51455;
 }
 
-.dfooter {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+footer.footer p,
+footer.footer strong {
+  color: #fff ;
+}
+
+@media screen and (max-width: 528px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header ul {
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+  }
+
+  .imagemsobre img {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
 }
