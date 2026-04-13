@@ -1,38 +1,55 @@
-# Landing Page para Professora de Inglês Autônoma 🇬🇧 
+# 🌟 Landing Page - Curso de Inglês
 
-Este projeto consiste no desenvolvimento de uma Landing Page voltada para a promoção dos serviços de uma professora de inglês autônoma. A proposta é apresentar de forma objetiva e visualmente atrativa as principais informações relacionadas às aulas, métodos de ensino e formas de contato.
+Projeto acadêmico de desenvolvimento web. 
 
-<br>
+---
 
-## 📌 Objetivo
+## 📝 Sobre o Projeto
 
-A Landing Page é uma ferramenta crucial para profissionais autônomos, como professores particulares, pois permite que eles alcancem um público mais amplo e promovam seus serviços de forma eficaz. Esta Landing Page específica foi projetada para atender às necessidades da professora de inglês, fornecendo detalhes sobre seus serviços, métodos de ensino, experiência e informações de contato.
+Landing page para divulgação de curso de inglês, com foco em conversão de novos alunos. O projeto apresenta uma estrutura moderna e elegante, incluindo seções informativas sobre o curso, metodologia, benefícios e formulário de inscrição.
 
-<br>
+🔗 **Preview:** [profpatriciacastellani.netlify.app](https://profpatriciacastellani.netlify.app)
 
-## 🛠 Tecnologias Utilizadas
+---
 
-- HTML5
-- CSS3
-- Flexbox
-- Design Responsivo(Responsive Web Design)
+## 🛠 Tecnologias
 
-<br>
+<div align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+</div>
 
-## 🌐 Publicação
+---
 
-A página foi disponibilizada gratuitamente por meio da plataforma Netlify, assegurando acesso contínuo e alta disponibilidade. <br>
-🔗 **Acesse a Landing Page:** [aqui](https://profpatriciacastellani.netlify.app/).
+## ✨ Features
 
-<br>
+- 🎨 Design moderno e elegante
+- 📱 Totalmente responsivo (mobile, tablet, desktop)
+- ⚡ Animações e transições suaves
+- 📝 Formulário de inscrição com validação
+- 🖼️ Seções informativas (Sobre o Curso, Sobre a Professora)
+- 🔗 Links para redes sociais
 
-## 📱 Layout Responsivo
+---
 
-A interface foi desenvolvida com foco em dispositivos móveis, utilizando boas práticas de design responsivo para garantir uma excelente experiência do usuário em diferentes tamanhos de tela.
+## 📂 Estrutura
 
-<br>
+```
+├── index.html
+├── styles/
+│   └── styles.css
+├── img/
+│   ├── logo_curso.jpg
+│   ├── img_professora.jpg
+│   ├── instagram.png
+│   ├── facebook.png
+│   └── whatsapp.png
+└── README.md
+```
 
-## 👩‍💻 Autor(a)
+---
 
-Desenvolvido por **Andreza Freitas** <br>
-Contato: andreza1freitas@gmail.com
+## 👩‍💻 Autora
+
+Projeto desenvolvido por **Andreza Freitas**  
